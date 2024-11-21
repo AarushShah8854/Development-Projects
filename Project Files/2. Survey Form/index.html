@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+        <h1>Transfer Preference Form</h1>
+    </div>
+    <form>
+        <div class="form-input">
+            <label for="name">Name</label><br>
+            <input name="name" type="text" placeholder="Enter your name">
+        </div>
+
+        <div class="form-input">
+            <label for="email">Email</label><br>
+            <input name="email" type="email" placeholder="Enter your email">
+        </div>
+
+        <div class="form-input">
+            <label for="age">Age</label><br>
+            <input name="age" type="number" placeholder="Enter your age">
+        </div>
+
+        <div class="form-input">
+            <label for="personality">Which option best describes you?</label><br>
+            <select name="personality">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="employee">Employee</option>
+            </select>
+        </div>
+        
+        <div class="form-input">
+            <p>Would you like to go On-Site?</p>
+            <input type="radio" id="yes" name="on-site">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="on-site">
+            <label for="no">No</label><br>
+            <input type="radio" id="maybe" name="on-site">
+            <label for="maybe">May Be</label>        
+        </div>
+
+        <div class="form-input">
+            <p>Preference of Location for Posting (Check all preferred locations)</p>
+            <input type="checkbox" name="mumbai">
+            <label for="mumbai"> Mumbai</label><br>
+            <input type="checkbox" name="delhi">
+            <label for="delhi"> New Delhi</label> <br>
+            <input type="checkbox" name="bangalore">
+            <label for="bangalore"> Bangalore</label><br>
+            <input type="checkbox" name="chandigarh">
+            <label for="chandigarh"> Chandigarh</label> <br>
+            <input type="checkbox" name="chennai">
+            <label for="chennai"> Chennai</label><br>
+            <input type="checkbox" name="Gurgaon">
+            <label for="gurgaon"> Gurgaon</label> <br>
+        </div>
+
+        <div class="form-input">
+            <label>Any comments or suggestions</label><br>
+            <textarea></textarea>
+        </div>
+        <button >Submit</button>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>

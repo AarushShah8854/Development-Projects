@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.parallax-1 {
+    height: 600px;
+    width: 100%;
+    padding-top: 100px;
+    background-image: url(./images/jungle-background1.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.parallax-2 {
+    height: 600px;
+    width: 100%;
+    padding-top: 100px;
+    background-image: url(./images/jungle-background2.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    color: red;
+    margin: 20px;
+}
+
+img {
+    width:50%;
+    height: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity:0.6;
+}

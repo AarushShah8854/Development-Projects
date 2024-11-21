@@ -1,0 +1,32 @@
+input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+form {
+    background-color: green;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 0;
+    border: solid;
+}
+
+.header {
+    background-color: yellow;
+    width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    border: solid;
+}
+
+h1 {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
